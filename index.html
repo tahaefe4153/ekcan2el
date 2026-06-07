@@ -680,6 +680,67 @@ footer p{font-size:12px;color:var(--text-muted)}
   .hero-logo-wrap::before{width:240px;height:240px}
 }
 
+
+/* HAMBURGER MENU */
+.nav-burger{display:none;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;background:transparent;border:1px solid var(--border);border-radius:6px;cursor:pointer;padding:0 9px}
+.nav-burger span{display:block;height:2px;width:100%;background:#fff;border-radius:2px;transition:all 0.3s}
+.nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-burger.open span:nth-child(2){opacity:0}
+.nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+@media(max-width:900px){
+  .nav-burger{display:flex}
+  nav ul{
+    display:flex;flex-direction:column;position:fixed;top:64px;left:0;right:0;
+    background:var(--black2);border-bottom:1px solid var(--border);
+    padding:1rem 1.5rem;gap:0;margin:0;list-style:none;
+    transform:translateY(-150%);transition:transform 0.35s ease;
+    z-index:998;max-height:calc(100vh - 64px);overflow-y:auto;
+  }
+  nav ul.open{transform:translateY(0)}
+  nav ul li{width:100%;border-bottom:1px solid var(--border)}
+  nav ul li:last-child{border-bottom:none}
+  nav ul li a{display:block;padding:15px 4px;font-size:16px}
+  .nav-phone span{display:inline}
+}
+@media(max-width:560px){
+  .nav-phone{padding:9px 12px;font-size:12px}
+  nav{padding:0 1rem}
+}
+
+
+/* === KAPSAMLI MOBİL DÜZEN === */
+@media(max-width:900px){
+  .contact-inner{grid-template-columns:1fr;gap:2rem}
+  .stats-inner{grid-template-columns:repeat(2,1fr)}
+  .stat-item:nth-child(2n){border-right:none}
+  .stat-item:nth-child(-n+2){border-bottom:1px solid var(--border)}
+}
+@media(max-width:768px){
+  section, .cars-section, .about-section, .contact-section, .map-section, .testi-section{padding-left:1.25rem;padding-right:1.25rem}
+  .form-row{grid-template-columns:1fr}
+  .filters-bar, .filters{flex-direction:column;align-items:stretch}
+  .filters-bar select, .filters select{width:100%}
+  .detail-body{padding:1.25rem}
+  .detail-img{height:240px}
+  .detail-specs-grid{grid-template-columns:repeat(2,1fr)}
+  .hero{padding-top:90px;padding-bottom:50px}
+  .about-grid{grid-template-columns:1fr !important}
+}
+@media(max-width:560px){
+  .stats-inner{grid-template-columns:repeat(2,1fr)}
+  .stat-item{padding:1.25rem 0.75rem}
+  .stat-num{font-size:30px}
+  .stat-label{font-size:11px}
+  h1, .hero h1{font-size:34px !important;line-height:1.15}
+  .cars-grid{grid-template-columns:1fr}
+  .testi-card{width:260px}
+  .detail-actions{flex-direction:column}
+  .detail-btn-sb, .detail-btn-wa{width:100%}
+  .section-title, .about-section h2, .contact-section h2{font-size:28px}
+  .hero-logo-img{max-width:240px}
+}
+
 </style>
 </head>
 <body>
@@ -707,6 +768,9 @@ footer p{font-size:12px;color:var(--text-muted)}
     <li><a href="#iletisim">İletişim</a></li>
     <li><a href="https://mgekcan.sahibinden.com/" target="_blank">Sahibinden</a></li>
   </ul>
+  <button class="nav-burger" onclick="toggleMenu()" aria-label="Menü">
+    <span></span><span></span><span></span>
+  </button>
   <div class="nav-right">
     <a class="nav-phone" href="#iletisim">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
@@ -1329,6 +1393,25 @@ function sendSellWA(){
   if(notlar) metin += nl + "Notlar: " + notlar;
   window.open("https://wa.me/905300774253?text=" + encodeURIComponent(metin), "_blank");
 }
+
+
+function toggleMenu(){
+  var ul = document.querySelector("nav ul");
+  var burger = document.querySelector(".nav-burger");
+  if(ul){ ul.classList.toggle("open"); }
+  if(burger){ burger.classList.toggle("open"); }
+}
+// Menüdeki bir linke tıklanınca menüyü kapat
+document.addEventListener("DOMContentLoaded", function(){
+  document.querySelectorAll("nav ul li a").forEach(function(a){
+    a.addEventListener("click", function(){
+      var ul = document.querySelector("nav ul");
+      var burger = document.querySelector(".nav-burger");
+      if(ul) ul.classList.remove("open");
+      if(burger) burger.classList.remove("open");
+    });
+  });
+});
 
 function openSell(){
   document.getElementById("sellOverlay").classList.add("active");
