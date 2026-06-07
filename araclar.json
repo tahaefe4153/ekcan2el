@@ -1,63 +1,14 @@
 {
   "araclar": [
     {
-      "id": "audi_a3",
-      "marka": "Audi",
-      "model": "2019 A3 Sportback 30 TDI Sport",
-      "fiyat": "1.659.900 TL",
-      "fiyatNum": 1659900,
-      "km": "170000",
-      "yil": "2019",
-      "marka_filtre": "Audi",
-      "tip": "Sedan / Hatchback",
-      "specs": {
-        "Yıl": "2019",
-        "KM": "170.000",
-        "Yakıt": "Dizel",
-        "Vites": "Otomatik",
-        "Renk": "Gri",
-        "Motor": "116 hp / 1598 cc",
-        "Kasa": "Hatchback",
-        "Çekiş": "Önden"
-      },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-otomobil-audi-mg-suzuki-bayii-ekcanda-2019-audi-a3-sportback-sport-orj-cam-tvn-1320684062/detay",
-      "foto": "/audi_a3.jpg",
-      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 14/05/2019\nSatışa Engel Durum: YOK\nKasko Kod: 91364\nGaranti Durumu: Devam Etmiyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 340.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
-    },
-    {
-      "id": "mini_country",
-      "marka": "Mini",
-      "model": "2025 Countryman E Favoured",
-      "fiyat": "2.399.900 TL",
-      "fiyatNum": 2399900,
-      "km": "22000",
-      "yil": "2025",
-      "marka_filtre": "Mini",
-      "tip": "SUV / Crossover",
-      "specs": {
-        "Yıl": "2025",
-        "KM": "22.000",
-        "Yakıt": "Elektrik",
-        "Vites": "Otomatik",
-        "Renk": "Mavi",
-        "Motor": "204 hp",
-        "Kasa": "SUV",
-        "Jant": "19\""
-      },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-mini-mg-suzuki-bayii-ekcanda-2025-countryman-e-19-jant-taba-doseme-1320682063/detay",
-      "foto": "/mini_country.jpg",
-      "aciklama": "Aracımızda komple PPF (boya koruma filmi) uygulaması mevcuttur.\n\nEkspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 27/02/2025\nMuayene Geçerlilik: 27/01/2028\nSatışa Engel Durum: YOK\nKasko Kod: 4211148\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
-    },
-    {
-      "id": "porsche_911",
-      "marka": "Porsche",
-      "model": "2023 911 Carrera 4S",
-      "fiyat": "28.499.900 TL",
-      "fiyatNum": 28499900,
       "km": "14500",
-      "yil": "2023",
+      "foto": "/porsche_911.jpg",
       "marka_filtre": "Porsche",
-      "tip": "Sedan / Hatchback",
+      "fiyat": "28.499.000 TL",
+      "model": "2023 911 Carrera 4S",
+      "aciklama": "Aracımızı görmek için lütfen randevu talep ediniz.\nTürkiye'de satışta olan tek renk.\n\nEkspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 2024\nSatışa Engel Durum: YOK\nKasko Kod: 1181144\nGaranti Durumu: Devam Ediyor\n\nAraç Özellikleri\n• 03/01/2028 tarihine kadar uzatılmış garanti\n• Komple PPF kaplama\n• Bayii çıkışlı\n\nFirma Yetki Belge No: 4100028",
+      "marka": "Porsche",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-otomobil-porsche-mg-bayii-ekcanda-2023-porsche-911-carrera-4s-lacivert-gri-orj-1281084039/detay",
       "specs": {
         "Yıl": "2023",
         "KM": "14.500",
@@ -68,20 +19,68 @@
         "Kasa": "Coupe",
         "Çekiş": "4WD"
       },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-otomobil-porsche-mg-bayii-ekcanda-2023-porsche-911-carrera-4s-lacivert-gri-orj-1281084039/detay",
-      "foto": "/porsche_911.jpg",
-      "aciklama": "Aracımızı görmek için lütfen randevu talep ediniz.\nTürkiye'de satışta olan tek renk.\n\nEkspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 2024\nSatışa Engel Durum: YOK\nKasko Kod: 1181144\nGaranti Durumu: Devam Ediyor\n\nAraç Özellikleri\n• 03/01/2028 tarihine kadar uzatılmış garanti\n• Komple PPF kaplama\n• Bayii çıkışlı\n\nFirma Yetki Belge No: 4100028"
+      "tip": "Sedan / Hatchback",
+      "id": "porsche_911",
+      "yil": "2023",
+      "fiyatNum": 28499900
     },
     {
-      "id": "honda_civic",
-      "marka": "Honda",
-      "model": "2021 Civic 1.6i VTEC Eco Elegance",
-      "fiyat": "1.709.900 TL",
-      "fiyatNum": 1709900,
-      "km": "72000",
-      "yil": "2021",
-      "marka_filtre": "Honda",
+      "km": "170000",
+      "foto": "/audi_a3.jpg",
+      "marka_filtre": "Audi",
+      "fiyat": "1.659.900 TL",
+      "model": "2019 A3 Sportback 30 TDI Sport",
+      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 14/05/2019\nSatışa Engel Durum: YOK\nKasko Kod: 91364\nGaranti Durumu: Devam Etmiyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 340.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Audi",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-otomobil-audi-mg-suzuki-bayii-ekcanda-2019-audi-a3-sportback-sport-orj-cam-tvn-1320684062/detay",
+      "specs": {
+        "Yıl": "2019",
+        "KM": "170.000",
+        "Yakıt": "Dizel",
+        "Vites": "Otomatik",
+        "Renk": "Gri",
+        "Motor": "116 hp / 1598 cc",
+        "Kasa": "Hatchback",
+        "Çekiş": "Önden"
+      },
       "tip": "Sedan / Hatchback",
+      "id": "audi_a3",
+      "yil": "2019",
+      "fiyatNum": 1659900
+    },
+    {
+      "km": "22000",
+      "foto": "/mini_country.jpg",
+      "marka_filtre": "Mini",
+      "fiyat": "2.399.900 TL",
+      "model": "2025 Countryman E Favoured",
+      "aciklama": "Aracımızda komple PPF (boya koruma filmi) uygulaması mevcuttur.\n\nEkspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 27/02/2025\nMuayene Geçerlilik: 27/01/2028\nSatışa Engel Durum: YOK\nKasko Kod: 4211148\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Mini",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-mini-mg-suzuki-bayii-ekcanda-2025-countryman-e-19-jant-taba-doseme-1320682063/detay",
+      "specs": {
+        "Yıl": "2025",
+        "KM": "22.000",
+        "Yakıt": "Elektrik",
+        "Vites": "Otomatik",
+        "Renk": "Mavi",
+        "Motor": "204 hp",
+        "Kasa": "SUV",
+        "Jant": "19\""
+      },
+      "tip": "SUV / Crossover",
+      "id": "mini_country",
+      "yil": "2025",
+      "fiyatNum": 2399900
+    },
+    {
+      "km": "72000",
+      "foto": "/honda_civic.jpg",
+      "marka_filtre": "Honda",
+      "fiyat": "1.709.900 TL",
+      "model": "2021 Civic 1.6i VTEC Eco Elegance",
+      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 17/06/2021\nMuayene Geçerlilik: 29/06/2026\nSatışa Engel Durum: YOK\nKasko Kod: 611199\nGaranti Durumu: Devam Etmiyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 300.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Honda",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-otomobil-honda-mg-suzuki-bayii-ekcanda-2021-honda-civic-1.6i-vtec-eco-eleg-orj-1318156553/detay",
       "specs": {
         "Yıl": "2021",
         "KM": "72.000",
@@ -92,20 +91,20 @@
         "Kasa": "Sedan",
         "Çekiş": "Önden"
       },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-otomobil-honda-mg-suzuki-bayii-ekcanda-2021-honda-civic-1.6i-vtec-eco-eleg-orj-1318156553/detay",
-      "foto": "/honda_civic.jpg",
-      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 17/06/2021\nMuayene Geçerlilik: 29/06/2026\nSatışa Engel Durum: YOK\nKasko Kod: 611199\nGaranti Durumu: Devam Etmiyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 300.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
+      "tip": "Sedan / Hatchback",
+      "id": "honda_civic",
+      "yil": "2021",
+      "fiyatNum": 1709900
     },
     {
-      "id": "opel_grand2024",
-      "marka": "Opel",
-      "model": "2024 Grandland 1.2T GS",
-      "fiyat": "1.819.900 TL",
-      "fiyatNum": 1819900,
       "km": "28000",
-      "yil": "2024",
+      "foto": "/opel_grand2024.jpg",
       "marka_filtre": "Opel",
-      "tip": "SUV / Crossover",
+      "fiyat": "1.819.900 TL",
+      "model": "2024 Grandland 1.2T GS",
+      "aciklama": "Ekspertiz Bilgisi\nBoya: Sol Arka Çamurluk  •  Değişen: YOK  •  Tramer: 62.729 TL  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 27/12/2024\nMuayene Geçerlilik: 23/09/2027\nSatışa Engel Durum: YOK\nKasko Kod: 1111649\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Opel",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2024-opel-grandland-1.2t-gs-orj-1318159958/detay",
       "specs": {
         "Yıl": "2024",
         "KM": "28.000",
@@ -116,20 +115,20 @@
         "Kasa": "SUV",
         "Çekiş": "4x2"
       },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2024-opel-grandland-1.2t-gs-orj-1318159958/detay",
-      "foto": "/opel_grand2024.jpg",
-      "aciklama": "Ekspertiz Bilgisi\nBoya: Sol Arka Çamurluk  •  Değişen: YOK  •  Tramer: 62.729 TL  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 27/12/2024\nMuayene Geçerlilik: 23/09/2027\nSatışa Engel Durum: YOK\nKasko Kod: 1111649\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
+      "tip": "SUV / Crossover",
+      "id": "opel_grand2024",
+      "yil": "2024",
+      "fiyatNum": 1819900
     },
     {
-      "id": "suzuki_scross",
-      "marka": "Suzuki",
-      "model": "2025 S-Cross 1.4 Hibrit Allgrip GLX Premium",
-      "fiyat": "2.259.900 TL",
-      "fiyatNum": 2259900,
       "km": "7850",
-      "yil": "2025",
+      "foto": "/suzuki_scross.jpg",
       "marka_filtre": "Suzuki",
-      "tip": "SUV / Crossover",
+      "fiyat": "2.259.900 TL",
+      "model": "2025 S-Cross 1.4 Hibrit Allgrip GLX Premium",
+      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nSatışa Engel Durum: YOK\nKasko Kod: 1301063\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Suzuki",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-suzuki-mg-suzuki-bayii-ekcanda-2025-suzuki-s-cross-allgrip-glx-prem.4-4-1313489359/detay",
       "specs": {
         "Yıl": "2025",
         "KM": "7.850",
@@ -140,20 +139,20 @@
         "Kasa": "Crossover",
         "Çekiş": "4x4"
       },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-suzuki-mg-suzuki-bayii-ekcanda-2025-suzuki-s-cross-allgrip-glx-prem.4-4-1313489359/detay",
-      "foto": "/suzuki_scross.jpg",
-      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nSatışa Engel Durum: YOK\nKasko Kod: 1301063\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
+      "tip": "SUV / Crossover",
+      "id": "suzuki_scross",
+      "yil": "2025",
+      "fiyatNum": 2259900
     },
     {
-      "id": "opel_grandx",
-      "marka": "Opel",
-      "model": "2019 Grandland X 1.5D Enjoy AT",
-      "fiyat": "1.359.900 TL",
-      "fiyatNum": 1359900,
       "km": "94000",
-      "yil": "2019",
+      "foto": "/opel_grandx.jpg",
       "marka_filtre": "Opel",
-      "tip": "SUV / Crossover",
+      "fiyat": "1.359.900 TL",
+      "model": "2019 Grandland X 1.5D Enjoy AT",
+      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK\nDeğişen: Ön Kaput, Ön Tampon\nTramer: 19.360 TL + 7.720 TL + 3.200 TL (dolu onarım)\nYedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 02/09/2019\nMuayene Geçerlilik: 10/03/2027\nSatışa Engel Durum: YOK\nKasko Kod: 1111375\nGaranti Durumu: Devam Etmiyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 311.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Opel",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2019-opel-grandland-x-1.5-d-enjoy-at-1318838492/detay",
       "specs": {
         "Yıl": "2019",
         "KM": "94.000",
@@ -164,20 +163,20 @@
         "Kasa": "SUV",
         "Çekiş": "4x2"
       },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2019-opel-grandland-x-1.5-d-enjoy-at-1318838492/detay",
-      "foto": "/opel_grandx.jpg",
-      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK\nDeğişen: Ön Kaput, Ön Tampon\nTramer: 19.360 TL + 7.720 TL + 3.200 TL (dolu onarım)\nYedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 02/09/2019\nMuayene Geçerlilik: 10/03/2027\nSatışa Engel Durum: YOK\nKasko Kod: 1111375\nGaranti Durumu: Devam Etmiyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 311.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
+      "tip": "SUV / Crossover",
+      "id": "opel_grandx",
+      "yil": "2019",
+      "fiyatNum": 1359900
     },
     {
-      "id": "opel_frontera",
-      "marka": "Opel",
-      "model": "2025 Frontera-e GS Kısa Menzil",
-      "fiyat": "1.385.900 TL",
-      "fiyatNum": 1385900,
       "km": "16500",
-      "yil": "2025",
+      "foto": "/opel_frontera.jpg",
       "marka_filtre": "Opel",
-      "tip": "SUV / Crossover",
+      "fiyat": "1.385.900 TL",
+      "model": "2025 Frontera-e GS Kısa Menzil",
+      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 02/07/2025\nMuayene Geçerlilik: 24/04/2028\nSatışa Engel Durum: YOK\nKasko Kod: 1111701\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 360.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Opel",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2025-opel-frontera-e-gs-orj-turuncu-1319872168/detay",
       "specs": {
         "Yıl": "2025",
         "KM": "16.500",
@@ -188,20 +187,20 @@
         "Kasa": "SUV",
         "Çekiş": "4x2"
       },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2025-opel-frontera-e-gs-orj-turuncu-1319872168/detay",
-      "foto": "/opel_frontera.jpg",
-      "aciklama": "Ekspertiz Bilgisi\nBoya: YOK  •  Değişen: YOK  •  Tramer: YOK  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 02/07/2025\nMuayene Geçerlilik: 24/04/2028\nSatışa Engel Durum: YOK\nKasko Kod: 1111701\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nMax. Vade: 12 Ay\nKullanılabilecek En Yüksek Tutar: 360.000 TL\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
+      "tip": "SUV / Crossover",
+      "id": "opel_frontera",
+      "yil": "2025",
+      "fiyatNum": 1385900
     },
     {
-      "id": "opel_mokka",
-      "marka": "Opel",
-      "model": "2025 Mokka 1.2T Edition",
-      "fiyat": "1.589.900 TL",
-      "fiyatNum": 1589900,
       "km": "11000",
-      "yil": "2025",
+      "foto": "/opel_mokka.jpg",
       "marka_filtre": "Opel",
-      "tip": "SUV / Crossover",
+      "fiyat": "1.589.900 TL",
+      "model": "2025 Mokka 1.2T Edition",
+      "aciklama": "Ekspertiz Bilgisi\nBoya: Arka Tampon Lokal (sürtme kaynaklı)  •  Değişen: YOK  •  Tramer: 30.000 TL  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 06/08/2025\nMuayene Geçerlilik: 2028\nSatışa Engel Durum: YOK\nKasko Kod: 1111686\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir.",
+      "marka": "Opel",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2025-opel-mokka-1.2t-edition-gri-siyah-1316851878/detay",
       "specs": {
         "Yıl": "2025",
         "KM": "11.000",
@@ -212,9 +211,10 @@
         "Kasa": "SUV",
         "Çekiş": "4x2"
       },
-      "sahibinden": "https://www.sahibinden.com/ilan/vasita-arazi-suv-pickup-opel-mg-suzuki-bayii-ekcanda-2025-opel-mokka-1.2t-edition-gri-siyah-1316851878/detay",
-      "foto": "/opel_mokka.jpg",
-      "aciklama": "Ekspertiz Bilgisi\nBoya: Arka Tampon Lokal (sürtme kaynaklı)  •  Değişen: YOK  •  Tramer: 30.000 TL  •  Yedek Anahtar: Mevcut\n\nAraç Bilgileri\nİlk Tescil Tarihi: 06/08/2025\nMuayene Geçerlilik: 2028\nSatışa Engel Durum: YOK\nKasko Kod: 1111686\nGaranti Durumu: Devam Ediyor\n\nKredi Bilgisi\nTüm Kredi Kartlarına 12 Ay Taksit İmkanı\n\nFirma Yetki Belge No: 4100028\nSatışını yaptığımız araçlar için tramer ve kaporta ekspertiz raporu verilmektedir."
+      "tip": "SUV / Crossover",
+      "id": "opel_mokka",
+      "yil": "2025",
+      "fiyatNum": 1589900
     }
   ]
 }
