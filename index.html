@@ -741,6 +741,31 @@ footer p{font-size:12px;color:var(--text-muted)}
   .hero-logo-img{max-width:240px}
 }
 
+
+/* SSS BÖLÜMÜ */
+.faq-section{background:var(--black2);border-top:1px solid var(--border);padding:5rem 3rem}
+.faq-inner{max-width:860px;margin:0 auto}
+.faq-head{text-align:center;margin-bottom:3rem}
+.faq-tag{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:1rem}
+.faq-tag span{width:24px;height:2px;background:var(--red);display:inline-block}
+.faq-head h2{font-family:"Bebas Neue",sans-serif;font-size:clamp(32px,5vw,52px);letter-spacing:2px}
+.faq-head h2 .red{color:var(--red)}
+.faq-item{border:1px solid var(--border);border-radius:8px;margin-bottom:12px;overflow:hidden;background:var(--black3)}
+.faq-q{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:18px 20px;cursor:pointer;font-size:15px;font-weight:600;color:#fff;transition:background 0.2s}
+.faq-q:hover{background:rgba(255,255,255,0.03)}
+.faq-q .faq-icon{flex-shrink:0;width:24px;height:24px;display:flex;align-items:center;justify-content:center;color:var(--red);font-size:20px;transition:transform 0.3s}
+.faq-item.open .faq-q .faq-icon{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height 0.35s ease;padding:0 20px}
+.faq-item.open .faq-a{max-height:300px;padding:0 20px 18px}
+.faq-a p{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.7;margin:0}
+
+/* SOSYAL MEDYA */
+.nav-social{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:6px;border:1px solid var(--border);color:#fff;margin-right:8px;transition:all 0.2s}
+.nav-social:hover{background:var(--red);border-color:var(--red)}
+.cinfo-social{display:flex;gap:12px;margin-top:8px}
+.cinfo-social a{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:8px;background:var(--black3);border:1px solid var(--border);color:#fff;transition:all 0.2s}
+.cinfo-social a:hover{background:var(--red);border-color:var(--red);transform:translateY(-2px)}
+
 </style>
 </head>
 <body>
@@ -763,15 +788,17 @@ footer p{font-size:12px;color:var(--text-muted)}
   </a>
   <ul>
     <li><a href="#araclar">Araçlar</a></li>
-    <li><a href="#hakkimizda">Hakkımızda</a></li>
     <li><a href="#" onclick="openSell();return false;">Aracını Sat</a></li>
-    <li><a href="#iletisim">İletişim</a></li>
     <li><a href="https://mgekcan.sahibinden.com/" target="_blank">Sahibinden</a></li>
+    <li><a href="#sss">SSS</a></li>
+    <li><a href="#iletisim">İletişim</a></li>
+    <li><a href="#hakkimizda">Hakkımızda</a></li>
   </ul>
   <button class="nav-burger" onclick="toggleMenu()" aria-label="Menü">
     <span></span><span></span><span></span>
   </button>
   <div class="nav-right">
+    <a class="nav-social" href="https://instagram.com/ekcan2el" target="_blank" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
     <a class="nav-phone" href="#iletisim">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
       Bize Ulaşın
@@ -909,105 +936,6 @@ footer p{font-size:12px;color:var(--text-muted)}
   </div>
 </div>
 
-<!-- MUSTERI YORUMLARI -->
-<div class="testi-section reveal">
-  <div class="testi-inner">
-    <div class="testi-head">
-      <div class="testi-tag"><span></span>Müşteri Yorumları</div>
-      <h2>MEMNUN <span class="red">MÜŞTERİLERİMİZ</span></h2>
-    </div>
-  </div>
-  <div class="testi-track-wrap">
-    <div class="testi-track">
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Çok güvenilir bir galeri. Aracı ekspertizden geçirip her detayı şeffafça anlattılar. Teşekkürler."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">M</div>
-          <div><div class="testi-name">Murat K.</div><div class="testi-loc">Kocaeli</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Aradığım aracı uygun fiyata buldum. İşlemler hızlı ve sorunsuzdu. Kesinlikle tavsiye ederim."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">A</div>
-          <div><div class="testi-name">Ayşe D.</div><div class="testi-loc">İstanbul</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"35 yıllık tecrübe her şeyi anlatıyor. İlk aracımı buradan aldım, çok memnunum."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">E</div>
-          <div><div class="testi-name">Emre Ş.</div><div class="testi-loc">Sakarya</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Profesyonel ekip, dürüst yaklaşım. Tramer durumunu bile gizlemeden söylediler. Helal olsun."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">F</div>
-          <div><div class="testi-name">Fatih Y.</div><div class="testi-loc">Kocaeli</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Mini'mi buradan aldım, tertemiz çıktı. Satış sonrası destekleri de çok iyi."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">Z</div>
-          <div><div class="testi-name">Zeynep A.</div><div class="testi-loc">Bursa</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Hem galeriden hem de aracımı sattığım için çok memnunum. Güvenilir adres."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">H</div>
-          <div><div class="testi-name">Hakan T.</div><div class="testi-loc">Yalova</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Çok güvenilir bir galeri. Aracı ekspertizden geçirip her detayı şeffafça anlattılar. Teşekkürler."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">M</div>
-          <div><div class="testi-name">Murat K.</div><div class="testi-loc">Kocaeli</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Aradığım aracı uygun fiyata buldum. İşlemler hızlı ve sorunsuzdu. Kesinlikle tavsiye ederim."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">A</div>
-          <div><div class="testi-name">Ayşe D.</div><div class="testi-loc">İstanbul</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"35 yıllık tecrübe her şeyi anlatıyor. İlk aracımı buradan aldım, çok memnunum."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">E</div>
-          <div><div class="testi-name">Emre Ş.</div><div class="testi-loc">Sakarya</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Profesyonel ekip, dürüst yaklaşım. Tramer durumunu bile gizlemeden söylediler. Helal olsun."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">F</div>
-          <div><div class="testi-name">Fatih Y.</div><div class="testi-loc">Kocaeli</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Mini'mi buradan aldım, tertemiz çıktı. Satış sonrası destekleri de çok iyi."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">Z</div>
-          <div><div class="testi-name">Zeynep A.</div><div class="testi-loc">Bursa</div></div>
-        </div>
-      </div><div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <div class="testi-text">"Hem galeriden hem de aracımı sattığım için çok memnunum. Güvenilir adres."</div>
-        <div class="testi-author">
-          <div class="testi-avatar">H</div>
-          <div><div class="testi-name">Hakan T.</div><div class="testi-loc">Yalova</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- ARACINI SAT (MODAL) -->
 <div class="sell-overlay" id="sellOverlay" onclick="if(event.target===this)closeSell()">
 <div class="sell-section" id="aracinisat">
@@ -1091,6 +1019,40 @@ footer p{font-size:12px;color:var(--text-muted)}
 </div>
 </div>
 
+<!-- SSS -->
+<div class="faq-section reveal" id="sss">
+  <div class="faq-inner">
+    <div class="faq-head">
+      <div class="faq-tag"><span></span>Merak Edilenler</div>
+      <h2>SIKÇA SORULAN <span class="red">SORULAR</span></h2>
+    </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Takas yapıyor musunuz?<span class="faq-icon">+</span></div>
+        <div class="faq-a"><p>Evet, takas imkanımız mevcuttur. Mevcut aracınızı getirin, değerlendirip uygun fiyat farkıyla yeni aracınıza geçmenize yardımcı olalım.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Kredi / taksit desteği var mı?<span class="faq-icon">+</span></div>
+        <div class="faq-a"><p>Tüm kredi kartlarına 12 aya varan taksit imkanı sunuyoruz. Ayrıca anlaşmalı bankalarımız aracılığıyla taşıt kredisi konusunda size destek oluyoruz.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Araçlar ekspertizli mi?<span class="faq-icon">+</span></div>
+        <div class="faq-a"><p>Sattığımız tüm araçlar için tramer ve kaporta ekspertiz raporu veriyoruz. Boya, değişen ve hasar durumu şeffaf şekilde paylaşılır.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Araçları yerinde görebilir miyim?<span class="faq-icon">+</span></div>
+        <div class="faq-a"><p>Tabii ki. Başiskele/Kocaeli'deki galerimize gelerek tüm araçları yerinde inceleyebilirsiniz.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Garanti veriyor musunuz?<span class="faq-icon">+</span></div>
+        <div class="faq-a"><p>Bazı araçlarımızda devam eden fabrika/uzatılmış garanti bulunmaktadır. Her aracın garanti durumu ilan detayında belirtilmiştir.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Şehir dışına satış yapıyor musunuz?<span class="faq-icon">+</span></div>
+        <div class="faq-a"><p>Evet, Türkiye'nin her yerine satış ve gönderim konusunda yardımcı oluyoruz. Detaylar için bizimle iletişime geçebilirsiniz.</p></div>
+      </div>
+  </div>
+</div>
+
 <!-- CONTACT -->
 <div class="contact-section reveal" id="iletisim">
   <div class="contact-inner">
@@ -1112,6 +1074,14 @@ footer p{font-size:12px;color:var(--text-muted)}
       <div class="cinfo">
         <div class="cicon">🕐</div>
         <div><div class="cinfo-label">Çalışma Saatleri</div><div class="cinfo-val">Hafta içi: 09:00 – 18:00<br>Cumartesi: 10:00 – 17:00</div></div>
+      </div>
+      <div class="cinfo">
+        <div class="cicon">📷</div>
+        <div><div class="cinfo-label">Sosyal Medya</div>
+          <div class="cinfo-social">
+            <a href="https://instagram.com/ekcan2el" target="_blank" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          </div>
+        </div>
       </div>
       <div class="cinfo">
         <div class="cicon">🔗</div>
@@ -1412,6 +1382,12 @@ document.addEventListener("DOMContentLoaded", function(){
     });
   });
 });
+
+
+function toggleFaq(el){
+  var item = el.parentElement;
+  item.classList.toggle("open");
+}
 
 function openSell(){
   document.getElementById("sellOverlay").classList.add("active");
