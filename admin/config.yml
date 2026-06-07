@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/araclar"
+public_folder: "/images/araclar"
+
+locale: "tr"
+
+collections:
+  - name: "araclar"
+    label: "Araçlar"
+    label_singular: "Araç"
+    folder: "araclar"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{marka}} {{model}} — {{fiyat}}"
+    fields:
+      - { label: "Marka", name: "marka", widget: "string" }
+      - { label: "Model / Başlık", name: "model", widget: "string" }
+      - { label: "Fiyat", name: "fiyat", widget: "string" }
+      - { label: "Yıl", name: "yil", widget: "string" }
+      - { label: "Kilometre", name: "km", widget: "string" }
+      - label: "Yakıt"
+        name: "yakit"
+        widget: "select"
+        options: ["Benzin", "Dizel", "LPG", "Benzin & LPG", "Hibrit", "Elektrik"]
+      - label: "Vites"
+        name: "vites"
+        widget: "select"
+        options: ["Otomatik", "Manuel"]
+      - { label: "Renk", name: "renk", widget: "string" }
+      - label: "Araç Tipi"
+        name: "tip"
+        widget: "select"
+        options: ["Sedan / Hatchback", "SUV / Crossover"]
+      - { label: "Fotoğraf", name: "foto", widget: "image", required: false }
+      - { label: "Sahibinden Linki", name: "sahibinden", widget: "string", required: false }
+      - { label: "Detaylı Açıklama", name: "aciklama", widget: "text", required: false }
