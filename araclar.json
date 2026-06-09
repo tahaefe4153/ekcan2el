@@ -215,6 +215,28 @@
       "id": "opel_mokka",
       "yil": "2025",
       "fiyatNum": 1589900
+    },
+    {
+      "km": "67000",
+      "marka_filtre": "Diğer",
+      "fiyat": "805.900",
+      "model": "2023 Egea 1.4 Fire",
+      "aciklama": "-----2023 FİAT EGEA 1.4 FİRE EASY PLUS-----\nAracı görmek için lütfen radenvu talep ediniz..\n---Ekspertiz Bilgisi---\nBoya: YOK\nDeğişen: Sağ Ön Çamurluk,Sağ Ön Kapı,Sağ Arka Kapı,Sağ Ön Far\nTramer: 89.130 TL (31/01/2024)\nYedek Anahtar: Mevcut\n---Araç Bilgileri---\nİlk Tescil Tarih: 11/08/2023\nMuayene Geçerlilik: 14/07/2026\nSatışa Engel Durum: YOK\nKasko Kod: 1001445\nGaranti Durumu: Devam Etmiyor.\n---Kredi Bilgisi---\nMax. Vade: 12\nKullanılabilecek En Yüksek Tutar: 270.000 TL\nFirma Yetki Belge Numarası: 4100028\nSatışını yapmış olduğumuz araçlar için tramer ve kaporta ekspertizinin olduğu bir rapor verilmektedir..\nTÜM İLANLARIMIZI İNCELEMEK İÇİN TIKLAYABİLİRSİNİZ..",
+      "marka": "Fiat",
+      "sahibinden": "https://www.sahibinden.com/ilan/vasita-otomobil-fiat-mg-suzuki-bayii-ekcanda-2023-fiat-egea-1.4-fire-easy-plus-1321138162/detay/",
+      "specs": {
+        "Çekiş": "ÖNDEN",
+        "Motor": "1.4 FİRE",
+        "Renk": "BEYAZ",
+        "Vites": "MANUEL",
+        "Yakıt": "BENZİN",
+        "KM": "67.000",
+        "Yıl": "2023"
+      },
+      "tip": "Sedan / Hatchback",
+      "id": "fiat_egea_2023",
+      "yil": "2023",
+      "fiyatNum": 805900
     }
   ]
 }
